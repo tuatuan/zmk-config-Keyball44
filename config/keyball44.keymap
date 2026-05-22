@@ -123,6 +123,7 @@
 &trans  &trans  &trans  &trans  &trans              &trans  &trans                                  &trans
             >;
         };
+    };
 };
 
 &mouse_runtime_input_processor {
