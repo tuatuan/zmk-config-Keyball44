@@ -58,8 +58,6 @@
         x-input-code = <INPUT_REL_X>;
         y-input-code = <INPUT_REL_Y>;
         disable-burst-read;
-        invert-x;
-        invert-y;
     };
 };
 
