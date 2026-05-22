@@ -42,7 +42,7 @@ manifest:
     - name: zmk-driver-animation
     - name: zmk-driver-ext-power-transient
     - name: zmk-module-ble-management
-    # - name: zmk-module-battery-history
+    - name: zmk-module-battery-history
     - name: zmk-module-runtime-input-processor
     - name: zmk-behavior-runtime-sensor-rotate
     - name: zmk-module-settings-rpc
