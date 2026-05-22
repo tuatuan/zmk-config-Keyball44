@@ -139,7 +139,7 @@
     x-codes = <INPUT_REL_X>;
     y-codes = <INPUT_REL_Y>;
     xy-to-scroll-enabled;
-    axis-snap-threshold = <50>;
+    axis-snap-threshold = <100>;
 };
 
 &trackball {
