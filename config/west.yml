@@ -2,4 +2,6 @@
 # should be initialized with cd repo && west init -l . --mf config/west.yml
 manifest:
   self:
-    import: config/west-dependency.yml
+    path: config
+    import: west-dependency.yml
+
