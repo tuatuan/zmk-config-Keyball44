@@ -128,3 +128,11 @@
         prechargep = <0x22>;
     };
 };
+
+&spi1 {
+    trackball: trackball@0 {
+        compatible = "pixart,pmw3610";
+        reg = <0>;
+        status = "disabled";
+    };
+};
