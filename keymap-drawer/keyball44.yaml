@@ -39,7 +39,7 @@ layers:
   - $$mdi:backspace-reverse-outline$$
   - LGUI
   - $$mdi:apple-keyboard-option$$
-  - {t: '$$mdi:keyboard-space$$', h: toggle}
+  - $$mdi:keyboard-space$$
   - SYM
   - FUN
   - $$mdi:apple-keyboard-shift$$
@@ -67,7 +67,7 @@ layers:
   - (
   - )
   - {t: '[', s: '{'}
-  - {t: ']', h: toggle, s: '}'}
+  - {t: ']', s: '}'}
   - '"'
   - '~'
   - {t: '$$mdi:minus-circle-outline$$', type: none}
@@ -182,16 +182,16 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   MOUSE:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '1', s: '!'}
-  - {t: '2', s: '@'}
-  - {t: '3', s: '#'}
-  - {t: '4', s: $}
-  - {t: '5', s: '%'}
-  - {t: '6', s: ^}
-  - {t: '7', s: '&'}
-  - {t: '8', s: '*'}
-  - {t: '9', s: (}
-  - {t: '0', s: )}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - Y
+  - U
+  - I
+  - O
+  - P
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:arrow-left-bold$$
