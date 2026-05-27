@@ -61,7 +61,7 @@
 &kp ESCAPE        &kp Q     &kp W      &kp E  &kp R  &kp T                      &kp Y  &kp U  &kp I      &kp O    &kp P      &kp BACKSPACE
 &kp LEFT_SHIFT    &kp A     &kp S      &kp D  &kp F  &kp G                      &kp H  &kp J  &kp K      &kp L    &kp SEMI   &kp ENTER
 &kp LEFT_CONTROL  &kp Z     &kp X      &kp C  &kp V  &kp B                      &kp N  &kp M  &kp COMMA  &kp DOT  &kp SLASH  &kp DELETE
-&kp LGUI          &kp LALT  &kt SPACE  &mo 2  &mo 3             &kp LEFT_SHIFT  &mo 1                                        &mo 4
+&kp LGUI          &kp LALT  &kp SPACE  &mo 2  &mo 3             &kp LEFT_SHIFT  &mo 1                                        &mo 4
             >;
         };
 
@@ -69,7 +69,7 @@
             label = "NUM";
             bindings = <
 &kp TILDE  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3     &kp NUMBER_4  &kp NUMBER_5              &kp NUMBER_6          &kp NUMBER_7           &kp NUMBER_8      &kp NUMBER_9       &kp NUMBER_0  &kp BACKSPACE
-&none      &kp PLUS      &kp MINUS     &kp KP_MULTIPLY  &kp SLASH     &kp EQUAL                 &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LEFT_BRACKET  &kt RIGHT_BRACKET  &kp DQT       &kp TILDE
+&none      &kp PLUS      &kp MINUS     &kp KP_MULTIPLY  &kp SLASH     &kp EQUAL                 &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp DQT       &kp TILDE
 &none      &none         &none         &none            &none         &none                     &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp LT            &kp GT             &kp PIPE      &kp UNDERSCORE
 &trans     &trans        &trans        &trans           &trans                          &trans  &trans                                                                                          &trans
             >;
@@ -98,10 +98,10 @@
         mouse_layer {
             label = "MOUSE";
             bindings = <
-&none   &kp N1          &kp N2          &kp N3        &kp N4     &kp N5              &kp N6         &kp N7     &kp N8  &kp N9     &kp N0     &none
-&none   &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT  &none               &kp PAGE_UP    &mkp LCLK  &none   &mkp RCLK  &mkp MCLK  &none
-&none   &none           &none           &none         &none      &none               &kp PAGE_DOWN  &none      &none   &none      &none      &none
-&trans  &trans          &trans          &trans        &trans                 &trans  &trans                                                  &none
+&none   &none           &none           &none         &none      &none              &kp Y          &kp U      &kp I  &kp O      &kp P      &none
+&none   &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT  &none              &kp PAGE_UP    &mkp LCLK  &none  &mkp RCLK  &mkp MCLK  &none
+&none   &none           &none           &none         &none      &none              &kp PAGE_DOWN  &none      &none  &none      &none      &none
+&trans  &trans          &trans          &trans        &trans                &trans  &trans                                                 &none
             >;
         };
 
