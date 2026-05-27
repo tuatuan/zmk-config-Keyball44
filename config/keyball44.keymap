@@ -132,8 +132,8 @@
 &mouse_runtime_input_processor {
     temp-layer-enabled;
     temp-layer = <4>;
-    temp-layer-on-delay-ms = <200>;
-    temp-layer-off-delay-ms = <400>; 
+    temp-layer-activation-delay-ms = <200>;
+    temp-layer-deactivation-delay-ms = <400>; 
 };
 
 &scroll_runtime_input_processor {
