@@ -68,10 +68,10 @@
         number_layer {
             label = "NUM";
             bindings = <
-&kp TILDE  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3     &kp NUMBER_4  &kp NUMBER_5              &kp NUMBER_6          &kp NUMBER_7           &kp NUMBER_8      &kp NUMBER_9       &kp NUMBER_0  &kp BACKSPACE
-&none      &kp PLUS      &kp MINUS     &kp KP_MULTIPLY  &kp SLASH     &kp EQUAL                 &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp DQT       &kp TILDE
-&none      &none         &none         &none            &none         &none                     &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp LT            &kp GT             &kp PIPE      &kp UNDERSCORE
-&trans     &trans        &trans        &trans           &trans                          &trans  &trans                                                                                          &trans
+&kp TILDE  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3     &kp NUMBER_4  &kp NUMBER_5              &kp NUMBER_6          &kp NUMBER_7           &kp NUMBER_8    &kp NUMBER_9     &kp NUMBER_0  &kp BACKSPACE
+&none      &kp PLUS      &kp MINUS     &kp KP_MULTIPLY  &kp SLASH     &kp EQUAL                 &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp DQT       &kp TILDE
+&none      &none         &none         &none            &none         &none                     &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp LT          &kp GT           &kp PIPE      &kp UNDERSCORE
+&trans     &trans        &trans        &trans           &trans                          &trans  &trans                                                                                      &trans
             >;
         };
 
